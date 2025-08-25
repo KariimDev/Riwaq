@@ -1,0 +1,8 @@
+# Custom headers for specific files
+[[headers]]
+  # The path to apply the header rule to
+  for = "/sitemap.xml"
+
+  [headers.values]
+    # Set the Content-Type header to application/xml
+    Content-Type = "application/xml"

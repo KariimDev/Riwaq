@@ -1,0 +1,9 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow crawling of specific folders
+# Disallow: /admin/
+
+# Point to your sitemap
+Sitemap: https://riwaq-beta.netlify.app/sitemap.xml
